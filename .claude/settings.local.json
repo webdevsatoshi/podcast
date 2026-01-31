@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//tmp/claude/c--Users-datpa-OneDrive-Desktop-office/tasks/**)",
+      "Bash(echo \"From: C:\\\\Users\\\\datpa\\\\Desktop\\\\piper\"\" && echo \"To: c:UsersdatpaOneDriveDesktopofficevoices\"\")",
+      "Bash(npm install:*)",
+      "WebFetch(domain:www.moltbook.com)",
+      "WebFetch(domain:api.moltbook.com)",
+      "Bash(timeout 10 npm run dev:server:*)",
+      "Bash(timeout 30 npx tsx:*)",
+      "Bash(powershell -Command \"Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force\")",
+      "Bash(powershell -Command \"Start-Process -NoNewWindow -FilePath ''npx'' -ArgumentList ''tsx'',''src/server/index.ts''\")",
+      "Bash(powershell:*)",
+      "Bash(powershell -Command \"Start-Sleep -Seconds 30\")",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(npm run)",
+      "Bash(npm run build:server:*)",
+      "Bash(timeout:*)",
+      "Bash(ping:*)",
+      "Bash(move \"c:\\\\Users\\\\datpa\\\\OneDrive\\\\Desktop\\\\office\\\\moltbook.png\" \"c:\\\\Users\\\\datpa\\\\OneDrive\\\\Desktop\\\\office\\\\public\\\\moltbook.png\")"
+    ]
+  }
+}

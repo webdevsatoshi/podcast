@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaTech - Emergency Meeting</title>
+    <link rel="stylesheet" href="/src/client/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="canvas"></canvas>
+      <div id="ui-overlay">
+        <div id="header-bar" style="display: none;">
+          <div id="scenario-title"></div>
+          <div id="turn-counter"></div>
+        </div>
+        <div id="subtitle-bar">
+          <span id="speaker-name"></span>
+          <span id="subtitle-text"></span>
+        </div>
+        <div id="controls">
+          <button id="tts-btn" style="display: none;">TTS: On</button>
+        </div>
+      </div>
+      <div id="loading">Loading...</div>
+    </div>
+    <script type="module" src="/src/client/main.ts"></script>
+  </body>
+</html>
